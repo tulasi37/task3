@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.timer {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.task-input {
+    margin-top: 20px;
+}
+
+#task {
+    padding: 10px;
+    width: 70%;
+}
+
+#addTaskBtn {
+    padding: 10px;
+}
+
+#taskList {
+    list-style-type: none;
+    padding: 0;
+}
